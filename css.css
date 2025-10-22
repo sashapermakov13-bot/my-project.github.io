@@ -1,0 +1,56 @@
+h1{
+    text-align: center;
+}
+p{
+font-family:'Segoe UI',sans-serif;
+text-align: center;
+font-size: 20px;
+}
+.Namber{
+width: 90px;
+height: 20px;
+font-family:'Segoe UI',sans-serif;
+text-align: center;
+font-size: 15px;
+color:blanchedalmond;
+background-color: rgb(182, 62, 1);
+border-radius: 10px;
+}
+.Victory{
+width: 40px;
+height: 40px;
+font-family:'Segoe UI',sans-serif;
+text-align: center;
+font-size: 15px;
+background-color: rgb(255, 238, 0);
+border-radius: 70%;
+border: 1px solid black;
+}
+.field{
+display: flex;
+justify-content: center;
+}
+.field_play{
+display: flex;
+justify-content: center;
+align-items: center;
+flex-direction: column;
+margin: auto;
+}
+footer{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+button{
+    border: none;
+    border-radius: 10px;
+    background-color: rgb(182, 62, 1);
+    font-size: 15px;
+    color:blanchedalmond;
+    cursor: pointer;
+}
+button:hover{
+     transform: scale(1.1);
+  transition: transform 0.3s ease;
+}
